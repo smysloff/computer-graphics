@@ -129,7 +129,7 @@ P = 1 - R (это и есть начальное значение ошибки)
 
 ## Решение
 
-```javascipt
+```javascript
 class GC {
 
   constructor(width = 320, height = 180, bgcolor = 'Black') {
