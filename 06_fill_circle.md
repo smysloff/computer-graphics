@@ -1,6 +1,7 @@
-<!--- file: 04_fill_circle.md --->
 
-# Лекция №4:<br>Закраска окружности (Fill Circle)
+<!--- file: 06_fill_circle.md --->
+
+# Урок №6: Закраска окружности (Fill Circle)
 
 ## Основная идея:
 

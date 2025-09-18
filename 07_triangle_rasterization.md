@@ -1,7 +1,7 @@
 
-<!--- file: triangle rasterization --->
+<!--- file: 07_triangle_rasterization.md --->
 
-# Лекция №5:<br>Растеризация треугольников<br>Алгоритм scanline
+# Урок №7: Растеризация треугольников. Алгоритм scanline.
 
 ## Почему треугольники?
 
