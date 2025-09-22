@@ -13,7 +13,7 @@
   * [Алгоритм Брезенхема для рисования линий.](04_bresenham_lines.md)
   * [Алгоритм Брезенхема для рисования окружностей.](05_bresenham_circles.md)
   * [Растеризация треугольников алгоритмом scanline.](06_triangle_rasterization.md)
-  * Алгоритм Active Edge Table для сложных полигонов.
+  * [Алгоритм Active Edge Table для сложных полигонов.](07_active_edge_table.md)
 * Работа с растровыми изображениями (битмапами).
   * Загрузка и хранение bitmap в памяти.
   * Функция BitBlit (bitmap block transfer) — вывод изображения на холст.
