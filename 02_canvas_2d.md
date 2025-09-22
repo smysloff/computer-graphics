@@ -76,9 +76,9 @@ const context = canvas.getContext('2d', { willReadFrequently: true })
 > ```javascript
 > context.imageSmoothingEnabled = false
 > ```
-> * Добавляем в CSS для Canvas:  
+> * Добавляем в CSS для Canvas:
 > ```css
-> canvas { image-rendering: pixelated; }
+> canvas { image-rendering: pixelated }
 > ```  
 > Это предотвратит размытие при масштабировании, что особенно важно при пиксель-арт графике и алгоритмах.
 
@@ -146,10 +146,10 @@ function putPixel(x, y, r, g, b, a = 255) {
 }
 
 // Пример: закрашиваем пиксель в красный
-putPixel(10, 10, 255, 0, 0);
+putPixel(10, 10, 255, 0, 0)
 
 // Отображаем изменения на экране
-ctx.putImageData(imageData, 0, 0);
+ctx.putImageData(imageData, 0, 0)
 ```
 
 > **Важно**: вызов `putImageData` — дорогая операция. Старайтесь вызывать его **один раз за кадр**, после всех изменений.
